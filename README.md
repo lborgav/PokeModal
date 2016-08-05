@@ -4,11 +4,6 @@
 
 ## Simple modal view inspired by Pokémon GO
 
-
-***************
-IN CONSTRUCTION
-***************
-
 [![CI Status](http://img.shields.io/travis/Leonardo Borges Avelino/PokeModal.svg?style=flat)](https://travis-ci.org/Leonardo Borges Avelino/PokeModal)
 [![Version](https://img.shields.io/cocoapods/v/PokeModal.svg?style=flat)](http://cocoapods.org/pods/PokeModal)
 [![License](https://img.shields.io/cocoapods/l/PokeModal.svg?style=flat)](http://cocoapods.org/pods/PokeModal)
