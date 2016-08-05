@@ -17,6 +17,7 @@ IN CONSTRUCTION
 
 ## Screenshots
 <img src="./Screenshots/before.png" width="280"/>
+<img src="./Screenshots/after.png" width="280"/>
 
 
 ## Example
