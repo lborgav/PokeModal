@@ -1,6 +1,0 @@
-framework module Pods_PokeModal_Example {
-  umbrella header "Pods-PokeModal_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
