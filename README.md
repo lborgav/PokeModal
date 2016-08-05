@@ -1,7 +1,7 @@
 
-![image](./pokemodal.png)
-
-
+<p align="center">
+<img src="./pokemodal.png" width="400" style="text-align:center"/>
+</p>
 
 ## Simple modal view inspired by Pokémon GO
 
@@ -16,9 +16,8 @@ IN CONSTRUCTION
 [![Platform](https://img.shields.io/cocoapods/p/PokeModal.svg?style=flat)](http://cocoapods.org/pods/PokeModal)
 
 ## Screenshots
+<img src="./Screenshots/before.png" width="280"/>
 
-![image](./Screenshots/before.png)
-![image](./Screenshots/after.png)
 
 ## Example
 
