@@ -16,8 +16,9 @@ class ViewController: UIViewController, PokeModalDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         modal = PokeModal(view: self.view)
-        modal!.titleText = "HI ASH"
-        modal!.contentText = "I wanna be the very best. Like no one ever was. To catch them is my real test. To train them is my cause"
+        modal?.titleText = "HI ASH"
+        modal?.contentText = "I wanna be the very best. Like no one ever was. To catch them is my real test. To train them is my cause"
+        modal?.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
