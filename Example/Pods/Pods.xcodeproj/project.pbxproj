@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D1E10D0DFAFB71B8C4F27C05A6134A /* PokeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34A2BA14B6A68F528E6B0DE86A9F63 /* PokeModal.swift */; };
+		08FF9DFFAC575B70A73773314DE9091F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		214C6CF6F2F93284833AB82C4CFD08B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		24770519D2ADA89899DE2D15F978CB62 /* PokeModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2CD089821EC484FA89F2DAD14F5437 /* PokeModal-dummy.m */; };
+		2A986F45C7C769E8543FBDA1DBE51FC4 /* Pods-PokeModal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A245B35F771743D0EF684A3CC0C4C779 /* Pods-PokeModal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4EFF05B992052349F5278119D4E9E4 /* PokeModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4217FFD4F01E207DD24481AF7124A31D /* PokeModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45AE86E8B4B87BD6560CC2F23A3A03F2 /* Pods-PokeModal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB8408AD89E78FB7832B982F9F79D5A /* Pods-PokeModal_Tests-dummy.m */; };
+		5324CBA16018876DC68EA9A5493B0362 /* Pods-PokeModal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C985D16AF059FD055141B6CDF204F94 /* Pods-PokeModal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D3BE1B437FA65D68B3580811FFB3866 /* Pods-PokeModal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 413103FDDB814FEA00B781F6E3569105 /* Pods-PokeModal_Example-dummy.m */; };
+		CF7281313E7A792209F2BD898ACCEB42 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E9645F71D39100A7E28931069F8DE7 /* close.png */; };
+		D0DEF3E4D85108026F29ACEEBF0D1468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D293ABA77FA57197617AE7B62109F15C /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C60D1D8486A3AB9F7C323F024B132E75 /* close@2x.png */; };
+		F0A9FCCBCEAC92F43ED16E89CC10C264 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBE91EF6B56C68E0ABCB09604F0C53B /* close@3x.png */; };
+		F58C0D82D6F12031B6B28124D5B80092 /* PokeModal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1CDAA438AA81BA1AEA42C15729CB4FA /* PokeModal.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		962C835D7B7D8A4BD9864309747C7189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9105756D0EE1850B52BD286AC010CF14;
+			remoteInfo = "PokeModal-PokeModal";
+		};
+		FE671068FF2E86A36CA81444B979938D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE85D27F3F758199BDC5D59F21F4B5C6;
+			remoteInfo = PokeModal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6C2C7D608D3CE7F00BD856DD530899 /* Pods-PokeModal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokeModal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20EFB372D476B7ADE57725B7D09862F1 /* Pods-PokeModal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeModal_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C985D16AF059FD055141B6CDF204F94 /* Pods-PokeModal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokeModal_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2FBC91298E95E30A2B843380A459488C /* Pods-PokeModal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokeModal_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		375DFE010AD4C157B93F1C1653C0E99A /* Pods-PokeModal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeModal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		38E9645F71D39100A7E28931069F8DE7 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		413103FDDB814FEA00B781F6E3569105 /* Pods-PokeModal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokeModal_Example-dummy.m"; sourceTree = "<group>"; };
+		4217FFD4F01E207DD24481AF7124A31D /* PokeModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PokeModal-umbrella.h"; sourceTree = "<group>"; };
+		47DAE59D789CB97A9A3CDD0ECB61181F /* Pods-PokeModal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PokeModal_Example.modulemap"; sourceTree = "<group>"; };
+		4889474E579299CBE9806671C0E5AFDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A77E590AD039990ADE3EC7C0BF3E6D2 /* Pods-PokeModal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokeModal_Example-resources.sh"; sourceTree = "<group>"; };
+		640EA1460403EBA95BAEB25A655FDC27 /* PokeModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PokeModal-prefix.pch"; sourceTree = "<group>"; };
+		70BDB21A8978E6EA62B47D5D9A92B4EB /* PokeModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PokeModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8124AF2AF371D16FE8405836833BE9E6 /* Pods-PokeModal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokeModal_Tests-resources.sh"; sourceTree = "<group>"; };
+		8E2CD089821EC484FA89F2DAD14F5437 /* PokeModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PokeModal-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955528F4286F3DDD9B538E13F98E0F8D /* Pods-PokeModal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokeModal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9BFFD9A8619604A97023E8A2438FDD67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4FA4D500D6E4D7FBD4B3ECC8142324 /* Pods_PokeModal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeModal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A245B35F771743D0EF684A3CC0C4C779 /* Pods-PokeModal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokeModal_Example-umbrella.h"; sourceTree = "<group>"; };
+		B5596C041140045CB2B6AABEAD214C5C /* Pods_PokeModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeModal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AD7B4171596E8847B538BD7920A339 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C62BEEFFFAB4ED814E7B9FAF43FF50 /* Pods-PokeModal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokeModal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCB8408AD89E78FB7832B982F9F79D5A /* Pods-PokeModal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokeModal_Tests-dummy.m"; sourceTree = "<group>"; };
+		BCBE91EF6B56C68E0ABCB09604F0C53B /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		C1CDAA438AA81BA1AEA42C15729CB4FA /* PokeModal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeModal.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0341C815264A19B520E577791FF60 /* PokeModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PokeModal.modulemap; sourceTree = "<group>"; };
+		C5E30AFB094233E512084976E6F1A94F /* Pods-PokeModal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokeModal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C60D1D8486A3AB9F7C323F024B132E75 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D6849A9F2602ABF5F3BE02131772EE61 /* Pods-PokeModal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokeModal_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DC34A2BA14B6A68F528E6B0DE86A9F63 /* PokeModal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PokeModal.swift; sourceTree = "<group>"; };
+		DDAD1287A54E11235B5DDCF8935B162E /* PokeModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PokeModal.xcconfig; sourceTree = "<group>"; };
+		E389A77731A8E26E35B67E9514601C91 /* Pods-PokeModal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeModal_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E894038B78D0463BE2D4A6864DD7169F /* Pods-PokeModal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeModal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC3A030CBB275819B1BC997A484CDB95 /* Pods-PokeModal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PokeModal_Tests.modulemap"; sourceTree = "<group>"; };
+		F151A959C16E5DD7B382710734CABA03 /* ResourceBundle-PokeModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PokeModal-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1998BE939A728C58E333C962113214F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FF9DFFAC575B70A73773314DE9091F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ADE07E779D9E8C728696F3682A4BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76E796F4908888BCE4B7CDAAA839BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214C6CF6F2F93284833AB82C4CFD08B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F238A279CDAB486FB6B2377CAB0B39EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DEF3E4D85108026F29ACEEBF0D1468 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A181B0F44C7870DE8ADE38F7EC15D4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C496F2FE9411B7B2CC30D0A9CFE02CB /* PokeModal */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2BE0F96AA87E10FDFBE89CA734B37222 /* Pods-PokeModal_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4889474E579299CBE9806671C0E5AFDA /* Info.plist */,
+				EC3A030CBB275819B1BC997A484CDB95 /* Pods-PokeModal_Tests.modulemap */,
+				C5E30AFB094233E512084976E6F1A94F /* Pods-PokeModal_Tests-acknowledgements.markdown */,
+				955528F4286F3DDD9B538E13F98E0F8D /* Pods-PokeModal_Tests-acknowledgements.plist */,
+				BCB8408AD89E78FB7832B982F9F79D5A /* Pods-PokeModal_Tests-dummy.m */,
+				2FBC91298E95E30A2B843380A459488C /* Pods-PokeModal_Tests-frameworks.sh */,
+				8124AF2AF371D16FE8405836833BE9E6 /* Pods-PokeModal_Tests-resources.sh */,
+				2C985D16AF059FD055141B6CDF204F94 /* Pods-PokeModal_Tests-umbrella.h */,
+				E894038B78D0463BE2D4A6864DD7169F /* Pods-PokeModal_Tests.debug.xcconfig */,
+				E389A77731A8E26E35B67E9514601C91 /* Pods-PokeModal_Tests.release.xcconfig */,
+			);
+			name = "Pods-PokeModal_Tests";
+			path = "Target Support Files/Pods-PokeModal_Tests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		44265D363744F866E7715C34D101A471 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE440EE32B8A8A6D34F6095D62140E6B /* PokeModal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4C496F2FE9411B7B2CC30D0A9CFE02CB /* PokeModal */ = {
+			isa = PBXGroup;
+			children = (
+				FC9BD30D2EBED8107FC183C48570FFDD /* Assets */,
+			);
+			path = PokeModal;
+			sourceTree = "<group>";
+		};
+		64FB5688DC65EB2E331A82FE1AFBE499 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC34A2BA14B6A68F528E6B0DE86A9F63 /* PokeModal.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		747CD7B3BDB2F9F4200E669E6CEA0B48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BFFD9A8619604A97023E8A2438FDD67 /* Info.plist */,
+				C1F0341C815264A19B520E577791FF60 /* PokeModal.modulemap */,
+				DDAD1287A54E11235B5DDCF8935B162E /* PokeModal.xcconfig */,
+				8E2CD089821EC484FA89F2DAD14F5437 /* PokeModal-dummy.m */,
+				640EA1460403EBA95BAEB25A655FDC27 /* PokeModal-prefix.pch */,
+				4217FFD4F01E207DD24481AF7124A31D /* PokeModal-umbrella.h */,
+				F151A959C16E5DD7B382710734CABA03 /* ResourceBundle-PokeModal-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PokeModal";
+			sourceTree = "<group>";
+		};
+		75D586E1132FE343AF67DAE9E277E5B4 /* PokeModal */ = {
+			isa = PBXGroup;
+			children = (
+				64FB5688DC65EB2E331A82FE1AFBE499 /* Classes */,
+			);
+			path = PokeModal;
+			sourceTree = "<group>";
+		};
+		7B93624D8BE3A83D8B4559C4268AAB34 /* Pods-PokeModal_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD7B4171596E8847B538BD7920A339 /* Info.plist */,
+				47DAE59D789CB97A9A3CDD0ECB61181F /* Pods-PokeModal_Example.modulemap */,
+				0B6C2C7D608D3CE7F00BD856DD530899 /* Pods-PokeModal_Example-acknowledgements.markdown */,
+				B8C62BEEFFFAB4ED814E7B9FAF43FF50 /* Pods-PokeModal_Example-acknowledgements.plist */,
+				413103FDDB814FEA00B781F6E3569105 /* Pods-PokeModal_Example-dummy.m */,
+				D6849A9F2602ABF5F3BE02131772EE61 /* Pods-PokeModal_Example-frameworks.sh */,
+				4A77E590AD039990ADE3EC7C0BF3E6D2 /* Pods-PokeModal_Example-resources.sh */,
+				A245B35F771743D0EF684A3CC0C4C779 /* Pods-PokeModal_Example-umbrella.h */,
+				20EFB372D476B7ADE57725B7D09862F1 /* Pods-PokeModal_Example.debug.xcconfig */,
+				375DFE010AD4C157B93F1C1653C0E99A /* Pods-PokeModal_Example.release.xcconfig */,
+			);
+			name = "Pods-PokeModal_Example";
+			path = "Target Support Files/Pods-PokeModal_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				44265D363744F866E7715C34D101A471 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B3F3A3DEC4022336772C632F40452163 /* Products */,
+				D22C785383A223E0DA38C0599B34D62A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3F3A3DEC4022336772C632F40452163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5596C041140045CB2B6AABEAD214C5C /* Pods_PokeModal_Example.framework */,
+				9F4FA4D500D6E4D7FBD4B3ECC8142324 /* Pods_PokeModal_Tests.framework */,
+				C1CDAA438AA81BA1AEA42C15729CB4FA /* PokeModal.bundle */,
+				70BDB21A8978E6EA62B47D5D9A92B4EB /* PokeModal.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D22C785383A223E0DA38C0599B34D62A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B93624D8BE3A83D8B4559C4268AAB34 /* Pods-PokeModal_Example */,
+				2BE0F96AA87E10FDFBE89CA734B37222 /* Pods-PokeModal_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE440EE32B8A8A6D34F6095D62140E6B /* PokeModal */ = {
+			isa = PBXGroup;
+			children = (
+				75D586E1132FE343AF67DAE9E277E5B4 /* PokeModal */,
+				1A181B0F44C7870DE8ADE38F7EC15D4D /* Resources */,
+				747CD7B3BDB2F9F4200E669E6CEA0B48 /* Support Files */,
+			);
+			name = PokeModal;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC9BD30D2EBED8107FC183C48570FFDD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				38E9645F71D39100A7E28931069F8DE7 /* close.png */,
+				C60D1D8486A3AB9F7C323F024B132E75 /* close@2x.png */,
+				BCBE91EF6B56C68E0ABCB09604F0C53B /* close@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01354C45426D8C6FAB8917D9C331B25F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5324CBA16018876DC68EA9A5493B0362 /* Pods-PokeModal_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DB97EA7D2AFA2FFD9ECA4B0FEEF871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A986F45C7C769E8543FBDA1DBE51FC4 /* Pods-PokeModal_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2002BD1EAFDDBCD2D388895A30367 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4EFF05B992052349F5278119D4E9E4 /* PokeModal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15010893D71251CA15E3429454EBFB88 /* Pods-PokeModal_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489D76960E80F14CF4617F5689D60B2 /* Build configuration list for PBXNativeTarget "Pods-PokeModal_Example" */;
+			buildPhases = (
+				DC595E6FE9F35B46A98A611C5A058329 /* Sources */,
+				E76E796F4908888BCE4B7CDAAA839BF6 /* Frameworks */,
+				05DB97EA7D2AFA2FFD9ECA4B0FEEF871 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35D9A099108EE949C8A879BD9D0924D /* PBXTargetDependency */,
+			);
+			name = "Pods-PokeModal_Example";
+			productName = "Pods-PokeModal_Example";
+			productReference = B5596C041140045CB2B6AABEAD214C5C /* Pods_PokeModal_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1B08B0E25CC7169EC3ED1CD63E6400E6 /* Pods-PokeModal_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0059F5584C11D53DDB9806F3E0D94E51 /* Build configuration list for PBXNativeTarget "Pods-PokeModal_Tests" */;
+			buildPhases = (
+				62F68872797579AC0F815EE09B5F9456 /* Sources */,
+				1998BE939A728C58E333C962113214F1 /* Frameworks */,
+				01354C45426D8C6FAB8917D9C331B25F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PokeModal_Tests";
+			productName = "Pods-PokeModal_Tests";
+			productReference = 9F4FA4D500D6E4D7FBD4B3ECC8142324 /* Pods_PokeModal_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9105756D0EE1850B52BD286AC010CF14 /* PokeModal-PokeModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE28640D896A5E16D0B2B557570302A4 /* Build configuration list for PBXNativeTarget "PokeModal-PokeModal" */;
+			buildPhases = (
+				72EA0E47ED6126646982ED6E09597900 /* Sources */,
+				70ADE07E779D9E8C728696F3682A4BC7 /* Frameworks */,
+				B907B43DA863F606013D316AD4755862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PokeModal-PokeModal";
+			productName = "PokeModal-PokeModal";
+			productReference = C1CDAA438AA81BA1AEA42C15729CB4FA /* PokeModal.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BE85D27F3F758199BDC5D59F21F4B5C6 /* PokeModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4884B88E29A630BB7D9B3E294B16A7 /* Build configuration list for PBXNativeTarget "PokeModal" */;
+			buildPhases = (
+				D1286F844E92081BEFFAA4B0650EE118 /* Sources */,
+				F238A279CDAB486FB6B2377CAB0B39EE /* Frameworks */,
+				833372572809D89C743F01C3EB7952E2 /* Resources */,
+				54D2002BD1EAFDDBCD2D388895A30367 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7C2F8B4B63B9F9CB4DCD7C893E8CA1 /* PBXTargetDependency */,
+			);
+			name = PokeModal;
+			productName = PokeModal;
+			productReference = 70BDB21A8978E6EA62B47D5D9A92B4EB /* PokeModal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B3F3A3DEC4022336772C632F40452163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15010893D71251CA15E3429454EBFB88 /* Pods-PokeModal_Example */,
+				1B08B0E25CC7169EC3ED1CD63E6400E6 /* Pods-PokeModal_Tests */,
+				BE85D27F3F758199BDC5D59F21F4B5C6 /* PokeModal */,
+				9105756D0EE1850B52BD286AC010CF14 /* PokeModal-PokeModal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833372572809D89C743F01C3EB7952E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58C0D82D6F12031B6B28124D5B80092 /* PokeModal.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907B43DA863F606013D316AD4755862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7281313E7A792209F2BD898ACCEB42 /* close.png in Resources */,
+				D293ABA77FA57197617AE7B62109F15C /* close@2x.png in Resources */,
+				F0A9FCCBCEAC92F43ED16E89CC10C264 /* close@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F68872797579AC0F815EE09B5F9456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AE86E8B4B87BD6560CC2F23A3A03F2 /* Pods-PokeModal_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EA0E47ED6126646982ED6E09597900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1286F844E92081BEFFAA4B0650EE118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24770519D2ADA89899DE2D15F978CB62 /* PokeModal-dummy.m in Sources */,
+				08D1E10D0DFAFB71B8C4F27C05A6134A /* PokeModal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC595E6FE9F35B46A98A611C5A058329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3BE1B437FA65D68B3580811FFB3866 /* Pods-PokeModal_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C7C2F8B4B63B9F9CB4DCD7C893E8CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PokeModal-PokeModal";
+			target = 9105756D0EE1850B52BD286AC010CF14 /* PokeModal-PokeModal */;
+			targetProxy = 962C835D7B7D8A4BD9864309747C7189 /* PBXContainerItemProxy */;
+		};
+		A35D9A099108EE949C8A879BD9D0924D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PokeModal;
+			target = BE85D27F3F758199BDC5D59F21F4B5C6 /* PokeModal */;
+			targetProxy = FE671068FF2E86A36CA81444B979938D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1180BFAB7595CC1817220C832E1F7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAD1287A54E11235B5DDCF8935B162E /* PokeModal.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PokeModal/PokeModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PokeModal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PokeModal/PokeModal.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PokeModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C755FC87F35A25DDDA86B39DB72661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAD1287A54E11235B5DDCF8935B162E /* PokeModal.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PokeModal/PokeModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PokeModal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PokeModal/PokeModal.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PokeModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441450A488B689EFEFF7332578B5BA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAD1287A54E11235B5DDCF8935B162E /* PokeModal.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PokeModal";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PokeModal/ResourceBundle-PokeModal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PokeModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		57B580A97B6D99F8BD65A20AB6A6EA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAD1287A54E11235B5DDCF8935B162E /* PokeModal.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PokeModal";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PokeModal/ResourceBundle-PokeModal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PokeModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		615FD53D5D5587F03ECED721C5223AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E389A77731A8E26E35B67E9514601C91 /* Pods-PokeModal_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokeModal_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokeModal_Tests/Pods-PokeModal_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokeModal_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BEFB2381C998F3EEA558E84D81150C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20EFB372D476B7ADE57725B7D09862F1 /* Pods-PokeModal_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokeModal_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokeModal_Example/Pods-PokeModal_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokeModal_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B411014CD8BCFEEB9D5FF3763894DB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E894038B78D0463BE2D4A6864DD7169F /* Pods-PokeModal_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokeModal_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokeModal_Tests/Pods-PokeModal_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokeModal_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1A72B624FB8665A1CA5F39A7384A458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375DFE010AD4C157B93F1C1653C0E99A /* Pods-PokeModal_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokeModal_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokeModal_Example/Pods-PokeModal_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokeModal_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0059F5584C11D53DDB9806F3E0D94E51 /* Build configuration list for PBXNativeTarget "Pods-PokeModal_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B411014CD8BCFEEB9D5FF3763894DB43 /* Debug */,
+				615FD53D5D5587F03ECED721C5223AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489D76960E80F14CF4617F5689D60B2 /* Build configuration list for PBXNativeTarget "Pods-PokeModal_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEFB2381C998F3EEA558E84D81150C9 /* Debug */,
+				F1A72B624FB8665A1CA5F39A7384A458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4884B88E29A630BB7D9B3E294B16A7 /* Build configuration list for PBXNativeTarget "PokeModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1180BFAB7595CC1817220C832E1F7849 /* Debug */,
+				32C755FC87F35A25DDDA86B39DB72661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE28640D896A5E16D0B2B557570302A4 /* Build configuration list for PBXNativeTarget "PokeModal-PokeModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B580A97B6D99F8BD65A20AB6A6EA35 /* Debug */,
+				441450A488B689EFEFF7332578B5BA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

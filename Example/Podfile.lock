@@ -1,0 +1,16 @@
+PODS:
+  - PokeModal (0.1.0)
+
+DEPENDENCIES:
+  - PokeModal (from `../`)
+
+EXTERNAL SOURCES:
+  PokeModal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PokeModal: 5f82d295b5acb4371b401d50453b07f875f339ab
+
+PODFILE CHECKSUM: 4fbbc193928d252fe89f98b16113a0204f51061e
+
+COCOAPODS: 1.0.1

@@ -7,18 +7,30 @@
 //
 
 import UIKit
+import PokeModal
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, PokeModalDelegate {
 
+    var modal: PokeModal? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        modal = PokeModal(view: self.view)
+        modal!.titleText = "HI ASH"
+        modal!.contentText = "I wanna be the very best. Like no one ever was. To catch them is my real test. To train them is my cause"
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func pokeModalWillHide() {
+        print("Hiding modal")
+    }
+    
+    @IBAction func pokebalTapped(sender: AnyObject) {
+        modal?.showMenu()
+    }
+    
 }
-

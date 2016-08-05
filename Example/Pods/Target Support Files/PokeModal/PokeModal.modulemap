@@ -1,0 +1,6 @@
+framework module PokeModal {
+  umbrella header "PokeModal-umbrella.h"
+
+  export *
+  module * { export * }
+}
