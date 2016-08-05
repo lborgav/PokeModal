@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PokeModal_Example' do
+  pod 'PokeModal', :path => '../'
+
+  target 'PokeModal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
