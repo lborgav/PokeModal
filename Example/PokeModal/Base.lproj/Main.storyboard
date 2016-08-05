@@ -34,12 +34,20 @@
                                     <constraint firstAttribute="width" constant="240" id="CgY-v3-906"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="click-here" translatesAutoresizingMaskIntoConstraints="NO" id="ujn-Lm-mQk">
+                                <rect key="frame" x="208" y="358" width="184" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="sKV-d6-opk"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vQ0-oP-c63" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="48x-gx-fnc"/>
                             <constraint firstItem="vQ0-oP-c63" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="MBC-bJ-xFI"/>
+                            <constraint firstItem="ujn-Lm-mQk" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Mrk-ix-5CZ"/>
                             <constraint firstItem="Pn4-2b-4gM" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="bNG-61-1X3"/>
+                            <constraint firstItem="ujn-Lm-mQk" firstAttribute="top" secondItem="vQ0-oP-c63" secondAttribute="bottom" constant="18" id="ipJ-E6-gqZ"/>
                             <constraint firstItem="vQ0-oP-c63" firstAttribute="top" secondItem="Pn4-2b-4gM" secondAttribute="bottom" constant="33" id="wSC-3Y-uXz"/>
                         </constraints>
                     </view>
@@ -50,6 +58,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="click-here" width="97" height="81"/>
         <image name="pokeball" width="100" height="100"/>
         <image name="pokemodal" width="201" height="52"/>
     </resources>
